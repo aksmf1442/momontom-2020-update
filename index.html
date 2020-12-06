@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MOMONTOM</title>
+        <meta charset='utf-8'></meta>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <main>
+            <div class="js-date-now">
+                <h1 class="js-datetime">2020년 12월 06일 일요일</h1>
+                <h1 class="js-clock">17:50:20</h1>
+            </div>
+            <div class="js-user user">
+                <span>닉네임을 입력해주세요!</span>
+                <form class="js-form">
+                    <input type="text" placeholder="닉네임을 적어주세요(10글자까지 가능)" maxlength="10">
+                </form>
+            </div>
+            <div class="js-greetings greetings">
+                <h3>안녕하세요.</h3>
+            </div>
+            <div class="js-toDo usgr">
+                <div class="js-toDoWrite">
+                    <form class="js-toDoWrite__Form">
+                        <input type="text" placeholder="오늘 할 일을 적어주세요!">
+                    </form> 
+                </div>
+                <form class="js-toDoInput">
+                    <input class="js-doing" type="button" value="doing">
+                    <input class="js-complete" type="button" value="complete">
+                </form>
+                <ul class="js-toDoList">
+                </ul>
+            </div>
+            <span class='js-weather'></span>
+        </main>
+        <script src="date.js"></script>
+        <script src="user.js"></script>
+        <script src="todo.js"></script>
+        <script src='weather.js'></script>
+    </body>
+</html>
